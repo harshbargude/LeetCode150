@@ -1,6 +1,6 @@
 package array_String;
 
-import java.util.HashMap;
+// import java.util.HashMap;
 
 public class MaxProfit {
 
@@ -27,7 +27,7 @@ public class MaxProfit {
 			profit = temp - LowP;
 			if(profit > maxP) {
 				maxP = profit;
-				
+
 			}
 		}
 		return maxP;

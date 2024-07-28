@@ -15,7 +15,7 @@ public class JumpGame2 {
 		int n = nums.length-1;
 		while(r<n) {
 			int farthest = 0;
-			for(l=l;l<=r;l++) {
+			for(l=0;l<=r;l++) {
 				farthest = Integer.max(farthest, l+nums[l]);
 			}
 			l = r+1;

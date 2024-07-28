@@ -1,8 +1,8 @@
 package array_String;
 
-import java.util.Iterator;
+// import java.util.Iterator;
 
-import array_String.MergSortArray.Solution;
+// import array_String.MergSortArray.Solution;
 
 public class RemoveDuplicants_2 {
 
