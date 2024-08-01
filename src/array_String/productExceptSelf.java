@@ -6,9 +6,11 @@ public class productExceptSelf {
         int[] result = new int[n];
 
         // Step 1: Calculate left products
-        result[0] = 1;
-        for (int i = 1; i < n; i++) {
-            result[i] = result[i - 1] * nums[i - 1];
+        int prefix = 1;
+        for (int i = 0; i < n; i++) {
+            result[i] = prefix;
+            prefix *= nums[i];
+//            result[i] = result[i - 1] * nums[i - 1];
         }
 
         // Step 2: Calculate right products and combine with left products
